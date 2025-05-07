@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>The Hummingbird Cafe</title>
+    <script src="scripts.js"></script>
 </head>
 <body>
     <div>
@@ -28,15 +29,44 @@
         <section>
             <h1>BUY OR SELL</h1>
             <div class="buttons">
-                <a>T-Shirts</a>
-                <a>Sweatshirts</a>
-                <a>Home</a>
+                <a href="https://www.urbanoutfitters.com/graphic-tees-for-women">T-Shirts</a>
+                <a href="https://www.urbanoutfitters.com/hoodies-sweatshirts-for-men">Sweatshirts</a>
+                <a href="https://www.antiquefarmhouse.com/style/vintage-decor.html">Home</a>
             </div>
         </section>
         <section>
             <h2>Item Inquiry:</h2>
             <form>
-                <h3></h3>
+                <label>Name:</label>
+                    <input type="text" id="name">
+                <label>Vintage Item:</label>
+                    <select>
+                        <option value="t-shirt">T-Shirt</option>
+                        <option value="sweatshirt">Sweatshirt</option>
+                        <option value="home-item">Home Item</option>
+                    </select>
+                <label>Contact Number:</label>
+                    <input type="text" id="number">
+                <label>Level of Use:</label>
+                    <select>
+                        <option value="1">1 (little to no use)</option>
+                        <option value="2">2 (mild use)</option>
+                        <option value="3">3 (regular use)</option>
+                        <option value="4">4 (heavy use)</option>
+                        <option value="5">5 (extremely heavy use)</option>
+                    </select>
+                    <a class="button" href="#">Submit</a>
+                    <dialog>
+                        <a class="close">X</a>
+                        <p>Thank you for your submission! We will review it shortly and get back to you!</p>
+                    </dialog>
             </form>
         </section>
     </main>
+    <footer>
+        <h3>Hours</h3>
+        <p>Monday-Thursday: 8am-4pm</p>
+        <p>Friday-Sunday: 8am-8pm</p>
+    </footer>
+</body>
+</html>
