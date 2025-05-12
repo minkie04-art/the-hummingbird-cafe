@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>The Hummingbird Cafe</title>
+    <script src="scripts.js"></script>
 </head>
 <body>
-    <div>
-        <img src="Images/hummingbird-logo.svg" alt="The Hummingbird Cafe Logo">
-    </div>
     <header>
+        <img src="Images/hummingbird.svg" alt="The Hummingbird Cafe Logo">
         <div class="hamburger" onclick="toggleNav()">
             <hr>
             <hr>
@@ -25,8 +24,8 @@
         </nav>
     </header>
     <main>
-        <section class="coffee-noncoffee">
             <h1>DRINKS</h1>
+            <section class="coffee-drinks">
             <table>
                 <thead>
                     <tr>
@@ -109,10 +108,12 @@
                     </tr>
                 </tbody>
             </table>
-            <div>
+        </section>
+            <div class="coffee">
                 <img src="Images/coffee_on_porch.jpg" alt="Image of Latte on Green Porch">
                 <img src="Images/green_tile.jpg" alt="Coffee Bar at the Hummingbird Cafe">
             </div>
+        <section class="specialties">
             <table>
                 <thead>
                     <tr>
@@ -164,8 +165,8 @@
                 </tbody>
             </table>
         </section>
+        <h1>FOOD</h1>
         <section class="food">
-            <h1>FOOD</h1>
             <table>
                 <thead>
                     <tr>
@@ -207,6 +208,8 @@
                     </tr>
                 </tbody>
             </table>
+            </section>
+            <section class="bakery">
             <table>
                 <thead>
                     <tr>
@@ -236,8 +239,7 @@
     </main>
     <footer>
         <h3>Hours</h3>
-        <p>Monday-Thursday: 8am-4pm</p>
-        <p>Friday-Sunday: 8am-8pm</p>
+        <p>Monday-Thursday: 8am-4pm<br>Friday-Sunday: 8am-8pm</p>
     </footer>
 </body>
 </html>

@@ -96,6 +96,7 @@ footer{
 }
 footer h3{
     color: white;
+    padding-top: 1rem;
 }
 footer p{
     color: white;
@@ -104,19 +105,161 @@ footer p{
     font-style: normal;
     font-variation-settings:"wdth" 100;
     text-align: center;
+    padding-bottom: 2rem;
+}
+.about{
+    background-image: url(Images/transparent-coffee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about p{
+    background-color: transparent;
+    border: none;
+    padding-bottom: 3rem;
+}
+.about h1{
+    padding-top: 3rem;
+}
+.our-team{
+    display: block;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.our-team img{
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem 2rem 0.5rem 2rem;
+    border-radius: 50%;
+}
+figcaption{
+    text-align: center;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-variation-settings:"wdth" 87.5;
+}
+.dream{
+    padding-bottom: 3rem;
+}
+.coffee-drinks td{
+    width: 1px;
+    padding: 5px;
 }
 
-
-
-
-
-
-
-
-
-
+.table-head{
+    font-size: 1rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: bold;
+    color: #b27c3e;
+}
+.coffee-drinks{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 2px solid #b27c3e;
+    margin: 1rem 1rem 3rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.coffee img{
+    width: 13rem;
+    height: 20rem;
+}
+.coffee{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+}
+.specialties{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 2px solid #b27c3e;
+    margin: 1rem 1rem 3rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.specialties td{
+    padding: 3px
+}
+.food{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border: 2px solid #b27c3e;
+    margin: 1rem 1rem 3rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.food td{
+   padding: 5px;
+}
+.bakery{
+    background-color: white;
+    border: 2px solid #b27c3e;
+    margin: 1rem 1rem 3rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+.bakery td{
+    padding: 3px;
+}
+.buttons a{
+    background-color: #869c6c;
+    color: white;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    padding: 0.25px;
+    margin: 3rem 2rem 3rem 2rem;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.buttons{
+    padding-bottom: 2rem;
+}
+.buttons a:hover{
+    background-color: #A49C83;
+}
+.form{
+    background-color: white;
+    border: 2px solid #b27c3e;
+    margin: 1rem 1rem 4rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+label{
+    display: block;
+    font-size: 1.5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: none;
+    color: #b27c3e;
+}
+.button{
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    background-color: #869c6c;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding: 3px;
+}
+.button:hover{
+    background-color: #A49C83;
+}
 dialog.show{
     display: block;
+    justify-content: center;
 }
 article{
     display: none;
@@ -124,3 +267,17 @@ article{
 article.show{
     display: block;
 }
+input, select{
+    border: 3px solid #b27c3e;
+    position: relative;
+    box-shadow: 1rem 0.5rem 0 #b27c3e;
+    width: 16rem;
+    height: 2rem;
+    display: block;
+    margin: 0 auto 2rem;
+    font-family: "Playfair", serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
