@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="styles.css">
     <title>The Hummingbird Cafe</title>
     <script src="scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <img src="Images/hummingbird.svg" alt="The Hummingbird Cafe Logo">
-    </div>
     <header>
+        <img src="Images/hummingbird.svg" alt="The Hummingbird Cafe Logo">
         <div class="hamburger" onclick="toggleNav()">
             <hr>
             <hr>
@@ -43,29 +44,30 @@
                     <li>When you deliver the item, you will be given the specified purchase price in exchange.</li>
                 </ol>
                 <h2>What is the return policy for vintage items?</h2>
-                    <p>Vintage clothing items can be returned within three weeks of the purchase date. Vintage home items cannot be returned.</p>
-                    <p>After three weeks have passed, vintage clothing items can be exchanged if the tag is still on the item.</p>
+                    <ul>
+                        <li>Vintage clothing items can be returned within three weeks of the purchase date. Vintage home items cannot be returned.</li>
+                        <li>After three weeks have passed, vintage clothing items can be exchanged if the tag is still on the item.</li>
+                    </ul>
                 <h2>What events do you host at the Hummingbird Cafe?</h2>
                     <p>All of our events are posted to our Instagram and Facebook pages. Follow us on social media to see all of our events for the week posted ahead of time. We would love to see you there!</p>
             </article>
         </section>
         <section class="contact" id="contact">
         <h1 class="accordion">Contact<span>^</span></h1>
-            <article>
+            <article class="call-email">
                 <a href="815-308-2467">Call Us</a>
                 <a href="thehummingbirdcafe@gmail.com">Email Us</a>
             </article>
         </section>
-        <section>
-            <a href="https://www.facebook.com/"><img src="Images/facebook.jpg" alt="Facebook Icon"></a>
-            <a href="https://www.instagram.com/"><img src="Images/instagram.jpg" alt="Instagram Icon"></a>
-            <a href="https://www.tiktok.com/en/"><img src="Images/tiktok.webp" alt="TikTok Icon"></a>
+        <section class="socials">
+            <a href="https://www.facebook.com/"><img src="Images/facebook.png" alt="Facebook Icon"></a>
+            <a href="https://www.instagram.com/"><img src="Images/instagram.png" alt="Instagram Icon"></a>
+            <a href="https://www.tiktok.com/en/"><img src="Images/tik-tok.png" alt="TikTok Icon"></a>
         </section>
     </main>
     <footer>
         <h3>Hours</h3>
-        <p>Monday-Thursday: 8am-4pm</p>
-        <p>Friday-Sunday: 8am-8pm</p>
+        <p>Monday-Thursday: 8am-4pm<br>Friday-Sunday: 8am-8pm</p>
     </footer>
 </body>
 </html>
