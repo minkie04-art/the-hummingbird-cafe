@@ -453,6 +453,15 @@ input, select{
         width: 24rem;
         height: 24rem;
     }
+    .about{
+        padding-bottom: 6.5rem;
+    }
+    .about p{
+        padding: 4rem;
+    }
+    .about h1{
+        padding-top: 3rem;
+    }
     p{
         font-size: 22px;
     }
@@ -462,9 +471,49 @@ input, select{
     h3{
         font-size: 32px;
     }
+    h1{
+        font-size: 50px;
+    }
     table{
         width: 80%;
-    
+    }
+}
+@media(min-width: 1650px){
+    .center{
+        display: inline-block;
+        margin-left: 3.5rem;
+    }
+    input, select{
+        width: 60rem;
+    }
+    label{
+        margin-left: 12rem;
+    }
+    .button{
+        margin-left: 12rem;
+    }
+    li{
+        font-size: 20px;
+    }
+    .call-email a{
+        margin-left: 45rem;
+        margin-right: 45rem;
+    }
+    nav.show{
+        display: flex;
+        background-color: #869c6c;
+    }
+    nav a{
+        font-family: "Gwendolyn", cursive;
+        font-weight: 700;
+        font-style: normal;
+        text-decoration: none;
+        background-color: #869c6c;
+        color: white;
+        font-size: 50px;
+        border: none;
+        margin-right: 8rem;
+        
     }
 }
 
