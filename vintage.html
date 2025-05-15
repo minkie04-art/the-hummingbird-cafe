@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Hummingbird Cafe</title>
+    <script src="scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="Images/hummingbird.svg" alt="The Hummingbird Cafe Logo">
+        <div class="hamburger" onclick="toggleNav()">
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <nav class="toggle-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="vintage.html">Vintage</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>BUY OR SELL</h1>
+            <div class="buttons">
+                <a href="https://www.urbanoutfitters.com/graphic-tees-for-women">T-Shirts</a>
+                <a href="https://www.urbanoutfitters.com/hoodies-sweatshirts-for-men">Sweatshirts</a>
+                <a href="https://www.antiquefarmhouse.com/style/vintage-decor.html">Home</a>
+            </div>
+        </section>
+        <h2>Item Inquiry:</h2>
+        <section class="form">
+            <form>
+                <label>Name:</label>
+                    <input type="text" id="name">
+                    <label>Contact Number:</label>
+                    <input type="text" id="number">
+                <label>Vintage Item:</label>
+                    <select>
+                        <option value="t-shirt">T-Shirt</option>
+                        <option value="sweatshirt">Sweatshirt</option>
+                        <option value="home-item">Home Item</option>
+                    </select>
+               
+                <label>Level of Use:</label>
+                    <select>
+                        <option value="1">1 (little to no use)</option>
+                        <option value="2">2 (mild use)</option>
+                        <option value="3">3 (regular use)</option>
+                        <option value="4">4 (heavy use)</option>
+                        <option value="5">5 (extremely heavy use)</option>
+                    </select>
+                    <br>
+                    <br>
+                    <a class="button" href="#">Submit</a>
+                    <dialog>
+                        <a class="close">X</a>
+                        <p>Thank you for your submission! We will review it shortly and get back to you!</p>
+                    </dialog>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3>Hours</h3>
+        <p>Monday-Thursday: 8am-4pm<br>Friday-Sunday: 8am-8pm</p>
+    </footer>
+</body>
+</html>
